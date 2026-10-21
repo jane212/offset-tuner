@@ -1,0 +1,760 @@
+{
+  "source": "TomTomBased/Green_Plots_Optimized_BandCutoff",
+  "note": "Starting offsets are the volume-weighted band+cutoff solution. Green shifts by adj_start = (offset - TT) mod C.",
+  "links_sb": [
+    {
+      "from": "159104364",
+      "to": "5043609351",
+      "tt": 32.43870036481474
+    },
+    {
+      "from": "5043609351",
+      "to": "159104593",
+      "tt": 15.39366475592731
+    },
+    {
+      "from": "159104593",
+      "to": "3088225970",
+      "tt": 28.727574046082704
+    },
+    {
+      "from": "3088225970",
+      "to": "5043609360",
+      "tt": 31.136626968005327
+    },
+    {
+      "from": "5043609360",
+      "to": "159094252",
+      "tt": 23.88786534057644
+    }
+  ],
+  "links_nb": [
+    {
+      "from": "5043609351",
+      "to": "159104364",
+      "tt": 12.385167927467302
+    },
+    {
+      "from": "159104593",
+      "to": "5043609351",
+      "tt": 11.86002667211286
+    },
+    {
+      "from": "3088225970",
+      "to": "159104593",
+      "tt": 25.01453696460095
+    },
+    {
+      "from": "5043609360",
+      "to": "3088225970",
+      "tt": 39.09139536462586
+    },
+    {
+      "from": "159094252",
+      "to": "5043609360",
+      "tt": 14.97653820295568
+    }
+  ],
+  "plans": [
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Mon-Fri",
+      "plan_id": 1,
+      "start_time": "07:30:00",
+      "end_time": "15:00:00",
+      "cycle": 65,
+      "d_sb": 0.8645,
+      "d_nb": 1.1355,
+      "vol_sb": 2008.17,
+      "vol_nb": 2637.52,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 38,
+          "split6": 38,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 27,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 40,
+          "split2": 34,
+          "split6": 34,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 0,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 42,
+          "split2": 27,
+          "split6": 27,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 1,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    },
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Mon-Fri",
+      "plan_id": 2,
+      "start_time": "15:00:00",
+      "end_time": "17:30:00",
+      "cycle": 75,
+      "d_sb": 0.9025,
+      "d_nb": 1.0975,
+      "vol_sb": 2784.29,
+      "vol_nb": 3386.0,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 45,
+          "split6": 45,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 53,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 50,
+          "split2": 42,
+          "split6": 42,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 0,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 53,
+          "split2": 37,
+          "split6": 37,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 47,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    },
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Mon-Fri",
+      "plan_id": 3,
+      "start_time": "17:30:00",
+      "end_time": "19:45:00",
+      "cycle": 65,
+      "d_sb": 0.905,
+      "d_nb": 1.095,
+      "vol_sb": 1927.19,
+      "vol_nb": 2331.56,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 38,
+          "split6": 38,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 27,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 41,
+          "split2": 32,
+          "split6": 32,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 0,
+          "split2": 42,
+          "split6": 42,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 42,
+          "split2": 27,
+          "split6": 27,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 1,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    },
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Sat",
+      "plan_id": 1,
+      "start_time": "08:45:00",
+      "end_time": "11:00:00",
+      "cycle": 65,
+      "d_sb": 0.783,
+      "d_nb": 1.217,
+      "vol_sb": 2358.67,
+      "vol_nb": 3666.07,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 40,
+          "split6": 40,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 27,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 38,
+          "split2": 40,
+          "split6": 40,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 0,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 42,
+          "split2": 31,
+          "split6": 31,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 1,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    },
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Sat",
+      "plan_id": 2,
+      "start_time": "11:00:00",
+      "end_time": "15:00:00",
+      "cycle": 85,
+      "d_sb": 0.9597,
+      "d_nb": 1.0403,
+      "vol_sb": 3413.25,
+      "vol_nb": 3699.75,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 0,
+          "split2": 64,
+          "split6": 64,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 47,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 41,
+          "split2": 64,
+          "split6": 64,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 10,
+          "split2": 41,
+          "split6": 41,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 43,
+          "split2": 64,
+          "split6": 64,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    },
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Sat",
+      "plan_id": 3,
+      "start_time": "15:00:00",
+      "end_time": "20:00:00",
+      "cycle": 75,
+      "d_sb": 1.0285,
+      "d_nb": 0.9715,
+      "vol_sb": 2720.41,
+      "vol_nb": 2569.8,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 45,
+          "split6": 45,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 43,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 51,
+          "split2": 42,
+          "split6": 42,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 0,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 43,
+          "split2": 36,
+          "split6": 36,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 48,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    },
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Sun",
+      "plan_id": 1,
+      "start_time": "08:45:00",
+      "end_time": "11:15:00",
+      "cycle": 65,
+      "d_sb": 0.9728,
+      "d_nb": 1.0272,
+      "vol_sb": 2164.85,
+      "vol_nb": 2286.0,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 37,
+          "split6": 37,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 27,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 41,
+          "split2": 33,
+          "split6": 33,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 0,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 42,
+          "split2": 29,
+          "split6": 29,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 1,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    },
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Sun",
+      "plan_id": 2,
+      "start_time": "11:15:00",
+      "end_time": "12:45:00",
+      "cycle": 75,
+      "d_sb": 0.9135,
+      "d_nb": 1.0865,
+      "vol_sb": 2719.32,
+      "vol_nb": 3234.0,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 53,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 51,
+          "split2": 41,
+          "split6": 41,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 0,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 53,
+          "split2": 33,
+          "split6": 33,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 47,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    },
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Sun",
+      "plan_id": 3,
+      "start_time": "12:45:00",
+      "end_time": "13:45:00",
+      "cycle": 120,
+      "d_sb": 0.9975,
+      "d_nb": 1.0025,
+      "vol_sb": 2991.0,
+      "vol_nb": 3006.0,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 53,
+          "split6": 53,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 106,
+          "split2": 99,
+          "split6": 99,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 47,
+          "split2": 73,
+          "split6": 73,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 40,
+          "split2": 90,
+          "split6": 90,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 2,
+          "split2": 54,
+          "split6": 54,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 17,
+          "split2": 94,
+          "split6": 94,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    },
+    {
+      "corridor_id": "50677_4th Street Southwest_0",
+      "day_type": "Sun",
+      "plan_id": 4,
+      "start_time": "13:45:00",
+      "end_time": "18:00:00",
+      "cycle": 65,
+      "d_sb": 0.9379,
+      "d_nb": 1.0621,
+      "vol_sb": 2325.0,
+      "vol_nb": 2632.94,
+      "w_band": 1.0,
+      "w_cut": 8.0,
+      "signals": [
+        {
+          "id": "159104364",
+          "name": "10th Avenue Southwest",
+          "offset": 0,
+          "split2": 35,
+          "split6": 35,
+          "tt_sb": 0.0,
+          "tt_nb": 103.32766513176267
+        },
+        {
+          "id": "5043609351",
+          "name": "McDonalds",
+          "offset": 27,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 32.43870036481474,
+          "tt_nb": 90.94249720429536
+        },
+        {
+          "id": "159104593",
+          "name": "13th Avenue Southwest",
+          "offset": 40,
+          "split2": 34,
+          "split6": 34,
+          "tt_sb": 47.832365120742054,
+          "tt_nb": 79.0824705321825
+        },
+        {
+          "id": "3088225970",
+          "name": "Oak Ridge Circle",
+          "offset": 0,
+          "split2": 43,
+          "split6": 43,
+          "tt_sb": 76.55993916682476,
+          "tt_nb": 54.06793356758154
+        },
+        {
+          "id": "5043609360",
+          "name": "Walmart",
+          "offset": 42,
+          "split2": 27,
+          "split6": 27,
+          "tt_sb": 107.69656613483009,
+          "tt_nb": 14.97653820295568
+        },
+        {
+          "id": "159094252",
+          "name": "29th Avenue Southwest",
+          "offset": 1,
+          "split2": 44,
+          "split6": 44,
+          "tt_sb": 131.58443147540652,
+          "tt_nb": 0.0
+        }
+      ]
+    }
+  ]
+}

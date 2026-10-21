@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Offset tuner — 4th St SW</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Corridor offset tuner</h1>
+      <p class="sub">Volume-weighted band + cutoff greens. Slide an offset and the green bar moves immediately.</p>
+    </div>
+    <div class="actions">
+      <label class="file-btn">
+        Upload CSV
+        <input id="upload" type="file" accept=".csv,text/csv" />
+      </label>
+      <button id="reset" type="button">Reset</button>
+      <button id="save" type="button" class="primary">Save CSV</button>
+    </div>
+  </header>
+
+  <section class="controls">
+    <label>
+      Plan
+      <select id="plan"></select>
+    </label>
+    <div id="meta" class="meta"></div>
+    <div id="metrics" class="metrics"></div>
+    <p id="status" class="status" role="status"></p>
+  </section>
+
+  <section class="stage">
+    <canvas id="plot"></canvas>
+  </section>
+
+  <section>
+    <h2>Offsets</h2>
+    <div id="sliders"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
