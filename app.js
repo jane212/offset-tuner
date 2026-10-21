@@ -55,9 +55,17 @@ function buildSliders() {
     card.innerHTML = `
       <div class="name">${s.name}</div>
       <div class="val-row">
-        <label class="val">offset=
-          <input type="number" min="0" max="${c - 1}" step="1" value="${offsets[s.id]}" data-num="${s.id}" />s
-        </label>
+        <div class="val">
+          <span>offset=</span>
+          <span class="stepper">
+            <input type="number" min="0" max="${c - 1}" step="1" value="${offsets[s.id]}" data-num="${s.id}" />
+            <span class="stepper-btns">
+              <button type="button" class="step" data-step="1" title="Increase offset" aria-label="Increase ${s.name} offset">&#9650;</button>
+              <button type="button" class="step" data-step="-1" title="Decrease offset" aria-label="Decrease ${s.name} offset">&#9660;</button>
+            </span>
+          </span>
+          <span>s</span>
+        </div>
         <button type="button" class="icon-btn" data-reset="${s.id}" title="Reset this offset" aria-label="Reset ${s.name}">
           <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
             <path fill="currentColor" d="M12 6V2L7 7l5 5V8c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5H5c0 3.9 3.1 7 7 7s7-3.1 7-7-3.1-7-7-7z"/>
@@ -84,6 +92,9 @@ function buildSliders() {
       write(num.value, true);
     });
     num.addEventListener("change", () => write(num.value === "" ? offsets[s.id] : num.value, false));
+    card.querySelectorAll("[data-step]").forEach((btn) => {
+      btn.addEventListener("click", () => write(offsets[s.id] + Number(btn.dataset.step), false));
+    });
     card.querySelector("[data-reset]").addEventListener("click", () => write(baseline[s.id], false));
     sliderBox.appendChild(card);
   });
